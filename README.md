@@ -38,3 +38,5 @@ The `docker-compose.yml` file configures all necessary services for the project.
 Data Generation: The Kafka producer simulates data for vehicles, GPS, traffic cameras, weather conditions, and emergency incidents. The data is sent to Kafka topics.
 Data Consumption: The Spark streaming job consumes data from Kafka topics, processes it, and stores it in Parquet files.
 Service Management: Docker Compose orchestrates the Kafka, Zookeeper, Spark, and Kafka Manager services, ensuring they run and interact correctly.
+
+![Screenshot 2024-08-09 103907](https://github.com/user-attachments/assets/fa061dce-8bef-46bb-90bd-8e2dcbda7b70)
